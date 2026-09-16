@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>OnlineDelta — 自研 Delta 机械臂 · 整机 / 零件 / 运动控制 IP</title>
+  <meta name="description" content="OnlineDelta：自研 Delta 并联机械臂整机、全部零部件在线选购，自研运动控制算法与结构设计 IP 授权。更快、更准、更稳。">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>△</text></svg>">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/">Online<span>Delta</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="菜单">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="/products/">产品中心</a>
+      <a href="/ip/">IP 与代码</a>
+      <a href="/solutions/">解决方案</a>
+      <a href="/support/">技术支持</a>
+      <a href="/about/">关于我们</a>
+      <a href="/contact/" class="nav-cta">联系询价</a>
+    </div>
+  </div>
+</nav>
+
+<!-- 首屏：整机大视觉 + Slogan + 双按钮 -->
+<header class="hero wrap">
+  <p class="eyebrow">Delta 并联机械臂 · 全栈自研</p>
+  <h1 class="hero-title">更快。更准。更稳。</h1>
+  <p class="hero-sub">自研运动控制算法 × 自设计 Delta 整机，一台能拆开看的机械臂。</p>
+  <div class="btn-row">
+    <a class="btn" href="/products/delta-series/">购买整机</a>
+    <a class="btn ghost more" href="/products/parts/">了解更多</a>
+  </div>
+  <p class="hero-price">整机 ¥29,800 起 · 零件单买 · 算法授权另售</p>
+  <div class="hero-visual" role="img" aria-label="Delta 机械臂示意图">
+    <svg viewBox="0 0 600 380" fill="none" aria-hidden="true">
+      <ellipse cx="300" cy="340" rx="220" ry="18" fill="#f5f5f7"/>
+      <g class="spin">
+        <circle cx="300" cy="160" r="120" stroke="#d2d2d7" stroke-width="2" stroke-dasharray="6 8"/>
+        <circle cx="300" cy="160" r="88" stroke="#0071e3" stroke-width="3"/>
+        <circle cx="300" cy="160" r="10" fill="#0071e3"/>
+        <g stroke="#1d1d1f" stroke-width="6" stroke-linecap="round">
+          <line x1="300" y1="160" x2="300" y2="52"/>
+          <line x1="300" y1="160" x2="206" y2="214"/>
+          <line x1="300" y1="160" x2="394" y2="214"/>
+        </g>
+        <g fill="#1d1d1f">
+          <circle cx="300" cy="52" r="12"/><circle cx="206" cy="214" r="12"/><circle cx="394" cy="214" r="12"/>
+        </g>
+      </g>
+      <g stroke="#6e6e73" stroke-width="4" stroke-linecap="round">
+        <line x1="300" y1="64" x2="300" y2="300"/>
+        <line x1="206" y1="226" x2="252" y2="300"/>
+        <line x1="394" y1="226" x2="348" y2="300"/>
+      </g>
+      <rect x="232" y="300" width="136" height="26" rx="13" fill="#1d1d1f"/>
+      <circle cx="300" cy="313" r="5" fill="#0071e3"/>
+    </svg>
+  </div>
+</header>
+
+<!-- Fact 数字条 -->
+<section class="facts">
+  <div class="wrap fact-grid">
+    <div class="fact reveal"><b data-count="0.05" data-decimals="2" data-prefix="±" data-suffix="mm">±0.05mm</b><span>重复定位精度</span><small>高速分拣不丢件 <a class="more" href="/products/delta-series/">参数</a></small></div>
+    <div class="fact reveal"><b data-count="2" data-suffix="m/s">2m/s</b><span>末端最大速度</span><small>节拍翻倍的底气</small></div>
+    <div class="fact reveal"><b data-count="3" data-suffix="kg">3kg</b><span>额定负载</span><small>覆盖主流分拣抓取</small></div>
+    <div class="fact reveal"><b data-count="600" data-prefix="Ø" data-suffix="mm">Ø600mm</b><span>工作半径</span><small>一条输送带全覆盖</small></div>
+  </div>
+</section>
+
+<!-- 卖点屏：一屏一卖点 -->
+<main class="wrap section">
+  <div class="feature reveal">
+    <div class="f-text">
+      <h3>整机，一台起卖。<br>零件，一个也卖。</h3>
+      <p>整机成套交付，也支持按零件单买：电机、减速机、主动臂、平行臂、动平台、末端执行器——每个零件独立 SKU，坏了只换一件。</p>
+      <a class="more" href="/products/parts/">浏览全部零件</a>
+    </div>
+    <div class="f-visual">
+      <svg viewBox="0 0 340 260" aria-hidden="true">
+        <rect x="20" y="20" width="140" height="100" rx="14" fill="#fff" stroke="#d2d2d7" stroke-width="2"/>
+        <rect x="180" y="20" width="140" height="100" rx="14" fill="#fff" stroke="#d2d2d7" stroke-width="2"/>
+        <rect x="20" y="140" width="140" height="100" rx="14" fill="#fff" stroke="#d2d2d7" stroke-width="2"/>
+        <rect x="180" y="140" width="140" height="100" rx="14" fill="#e8f1fc" stroke="#0071e3" stroke-width="3"/>
+        <g font-family="sans-serif" font-size="15" fill="#1d1d1f" text-anchor="middle">
+          <text x="90" y="70">伺服电机</text><text x="250" y="70">减速机</text>
+          <text x="90" y="190">平行臂组</text><text x="250" y="183">动平台</text>
+        </g>
+        <g font-family="sans-serif" font-size="12" fill="#6e6e73" text-anchor="middle">
+          <text x="90" y="92">¥1,280 起</text><text x="250" y="92">¥860 起</text>
+          <text x="90" y="212">¥420/组</text><text x="250" y="205" fill="#0071e3">¥680 · 点我购买 ›</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="feature reveal">
+    <div class="f-text">
+      <h3>点哪个零件，<br>就买哪个零件。</h3>
+      <p>交互式整机结构图：点击任意零件高亮定位，直达商品页。爆炸图、装配动画与 3D 交互版本即将上线。</p>
+      <a class="more" href="/products/parts/">试试点选零件</a>
+    </div>
+    <div class="f-visual">
+      <svg viewBox="0 0 340 260" aria-hidden="true">
+        <line x1="170" y1="20" x2="170" y2="230" stroke="#d2d2d7" stroke-width="3" stroke-dasharray="5 6"/>
+        <rect x="110" y="24" width="120" height="34" rx="17" fill="#1d1d1f"/>
+        <rect x="110" y="76" width="120" height="34" rx="17" fill="#fff" stroke="#d2d2d7" stroke-width="2"/>
+        <rect x="110" y="128" width="120" height="34" rx="17" fill="#e8f1fc" stroke="#0071e3" stroke-width="3"/>
+        <rect x="110" y="180" width="120" height="34" rx="17" fill="#fff" stroke="#d2d2d7" stroke-width="2"/>
+        <g font-family="sans-serif" font-size="13" fill="#fff" text-anchor="middle">
+          <text x="170" y="46">静平台</text>
+        </g>
+        <g font-family="sans-serif" font-size="13" fill="#1d1d1f" text-anchor="middle">
+          <text x="170" y="98">主动臂 ×3</text><text x="170" y="150" fill="#0071e3">平行臂 ×3</text><text x="170" y="202">动平台</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="feature reveal">
+    <div class="f-text">
+      <h3>算法，也能买。</h3>
+      <p>自研 Delta 运动控制算法、结构设计与输送带方案，按授权档位售卖：标准版走量、专业版主力、源码版限量、企业版定制。先试用，再付费。</p>
+      <a class="more" href="/ip/">查看授权档位</a>
+    </div>
+    <div class="f-visual">
+      <svg viewBox="0 0 340 260" aria-hidden="true">
+        <rect x="30" y="30" width="280" height="200" rx="14" fill="#1d1d1f"/>
+        <circle cx="52" cy="52" r="6" fill="#ff5f57"/><circle cx="70" cy="52" r="6" fill="#febc2e"/><circle cx="88" cy="52" r="6" fill="#28c840"/>
+        <g font-family="monospace" font-size="14">
+          <text x="48" y="100" fill="#9cdcfe">traj = plan_pick_place(</text>
+          <text x="48" y="124" fill="#ce9178">  speed=<tspan fill="#b5cea8">2.0</tspan>, payload=<tspan fill="#b5cea8">3.0</tspan>)</text>
+          <text x="48" y="148" fill="#9cdcfe">delta.execute(traj)  <tspan fill="#6e6e73"># ±0.05mm</tspan></text>
+          <text x="48" y="172" fill="#28c840">✓ cycle 0.42s · 试用 30 天 ›</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="feature reveal">
+    <div class="f-text">
+      <h3>整线方案，开箱即用。</h3>
+      <p>Delta + 输送带 + 视觉分拣整线案例：分拣、装配、包装，一案例一屏，看完就能询价。</p>
+      <a class="more" href="/solutions/">查看解决方案</a>
+    </div>
+    <div class="f-visual">
+      <svg viewBox="0 0 340 260" aria-hidden="true">
+        <rect x="20" y="170" width="300" height="40" rx="8" fill="#d2d2d7"/>
+        <g fill="#fff"><rect x="40" y="150" width="34" height="24" rx="4"/><rect x="120" y="150" width="34" height="24" rx="4"/><rect x="200" y="150" width="34" height="24" rx="4"/></g>
+        <line x1="170" y1="40" x2="170" y2="120" stroke="#1d1d1f" stroke-width="8" stroke-linecap="round"/>
+        <line x1="120" y1="70" x2="170" y2="120" stroke="#1d1d1f" stroke-width="6" stroke-linecap="round"/>
+        <line x1="220" y1="70" x2="170" y2="120" stroke="#1d1d1f" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="170" cy="40" r="14" fill="#0071e3"/>
+        <rect x="140" y="118" width="60" height="18" rx="9" fill="#1d1d1f"/>
+        <text x="170" y="152" font-family="sans-serif" font-size="13" fill="#0071e3" text-anchor="middle">分拣节拍 0.42s/件</text>
+      </svg>
+    </div>
+  </div>
+</main>
+
+<!-- 产品 / IP 双入口 -->
+<section class="wrap section" style="padding-top:0">
+  <h2 class="sec-title reveal">两个入口，各取所需。</h2>
+  <p class="sec-sub reveal">买硬件，去产品中心；买技术，去 IP 与代码。</p>
+  <div class="entry-grid">
+    <a class="entry-card reveal" href="/products/">
+      <h3>产品中心</h3>
+      <p>Delta 整机系列 · 全部零部件 · 点选即买</p>
+      <span class="more">选购硬件</span>
+    </a>
+    <a class="entry-card reveal" href="/ip/">
+      <h3>IP 与代码</h3>
+      <p>运动控制算法 · 结构设计 · 输送带方案</p>
+      <span class="more">选购授权</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><b>产品</b><a href="/products/delta-series/">Delta 整机系列</a><a href="/products/parts/">零部件总览</a><a href="/solutions/">解决方案</a></div>
+      <div><b>IP 与代码</b><a href="/ip/motion-control/">运动控制算法</a><a href="/ip/delta-design/">Delta 结构设计</a><a href="/ip/license/">授权说明</a></div>
+      <div><b>支持</b><a href="/support/">技术支持</a><a href="/contact/">联系询价</a><a href="/about/">关于我们</a></div>
+      <div><b>购买</b><a href="/cart/">购物袋</a><a href="/account/">用户中心</a><a href="/contact/">大客户询价</a></div>
+    </div>
+    <div class="foot-base">
+      <span>© 2026 OnlineDelta · 自研 Delta 机械臂</span>
+      <span>在线下单与支付即将上线，当前请通过询价购买</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

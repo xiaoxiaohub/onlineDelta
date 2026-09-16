@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>联系询价 — OnlineDelta</title>
+  <meta name="description" content="整机、零件、IP 授权统一询价入口：24 小时内响应。">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>△</text></svg>">
+</head>
+<body>
+<nav class="nav"><div class="nav-inner">
+  <a class="brand" href="/">Online<span>Delta</span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="菜单">☰</button>
+  <div class="nav-links" id="navLinks">
+    <a href="/products/">产品中心</a><a href="/ip/">IP 与代码</a><a href="/solutions/">解决方案</a>
+    <a href="/support/">技术支持</a><a href="/about/">关于我们</a><a href="/contact/" class="nav-cta">联系询价</a>
+  </div>
+</div></nav>
+
+<header class="hero wrap">
+  <p class="eyebrow">联系询价</p>
+  <h1 class="hero-title">24 小时内，<br>给你报价。</h1>
+  <p class="hero-sub">整机、零件、IP 授权——一个表单，全搞定。</p>
+</header>
+
+<main class="wrap section" style="padding-top:10px">
+  <form class="form reveal" id="inquiryForm">
+    <label for="f-type">询价类型</label>
+    <select id="f-type" name="type">
+      <option>Delta 整机</option><option>零部件</option><option>运动控制算法授权</option>
+      <option>结构设计授权</option><option>输送带方案</option><option>整线解决方案</option><option>其他</option>
+    </select>
+    <label for="f-name">称呼</label>
+    <input id="f-name" name="name" type="text" placeholder="如：王工" required>
+    <label for="f-phone">手机 / 微信</label>
+    <input id="f-phone" name="phone" type="text" placeholder="报价将通过此方式回复" required>
+    <label for="f-detail">需求说明</label>
+    <textarea id="f-detail" name="detail" rows="5" placeholder="如：D3-F 高速版 2 台，9 月底交货；或：伺服电机 400W ×20 件"></textarea>
+    <div class="btn-row" style="justify-content:flex-start"><button class="btn" type="submit">提交询价</button></div>
+    <p class="note">在线支付上线前，所有订单均走询价流程：提交 → 客服报价 → 微信/支付宝或对公付款 → 发货。</p>
+  </form>
+  <div id="formDone" class="center" style="display:none">
+    <h2 class="sec-title">已收到，我们 24 小时内回复。</h2>
+    <p class="sec-sub">演示站点：表单尚未接入后端，上线后此处自动流转至客服系统。<br>紧急需求请直接微信/电话联系（号码上线前在页脚补充）。</p>
+    <p><a class="more" href="/">返回首页</a></p>
+  </div>
+</main>
+
+<footer><div class="wrap"><div class="foot-grid">
+  <div><b>产品</b><a href="/products/delta-series/">Delta 整机系列</a><a href="/products/parts/">零部件总览</a><a href="/solutions/">解决方案</a></div>
+  <div><b>IP 与代码</b><a href="/ip/motion-control/">运动控制算法</a><a href="/ip/delta-design/">Delta 结构设计</a><a href="/ip/license/">授权说明</a></div>
+  <div><b>支持</b><a href="/support/">技术支持</a><a href="/contact/">联系询价</a><a href="/about/">关于我们</a></div>
+  <div><b>购买</b><a href="/cart/">购物袋</a><a href="/account/">用户中心</a><a href="/contact/">大客户询价</a></div>
+</div><div class="foot-base"><span>© 2026 OnlineDelta</span><span><a href="/">返回首页</a></span></div></div></footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
